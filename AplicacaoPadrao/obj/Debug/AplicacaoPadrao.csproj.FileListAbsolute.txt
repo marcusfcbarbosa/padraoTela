@@ -1,0 +1,6 @@
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\bin\AplicacaoPadrao.dll.config
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\bin\AplicacaoPadrao.dll
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\bin\AplicacaoPadrao.pdb
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\obj\Debug\AplicacaoPadrao.csprojResolveAssemblyReference.cache
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\obj\Debug\AplicacaoPadrao.dll
+c:\users\marcus\documents\visual studio 2013\Projects\AplicacaoPadrao\AplicacaoPadrao\obj\Debug\AplicacaoPadrao.pdb

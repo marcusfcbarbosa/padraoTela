@@ -1,0 +1,344 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Layout Padrão</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet" />
+</head>
+<!-- data-spy="scroll" adicionar marcação do menu, conforme a rolagem -->
+<body data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+    <!--Menu da aplicação -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Logo Padrao</a>
+            </div>
+            <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Para scroll da pagina -->
+                    <li><a href="#page-top"></a></li>
+                    <li><a class="" href="#servicos">Serviços</a></li>
+                    <li><a class="" href="#portfolio">Portfolio</a></li>
+                    <li><a class="" href="#quemsomos">Quem Somos</a></li>
+                    <li><a class="" href="#localizacao">Localizaçao</a></li>
+                    <li><a class="" href="#contatos">Contatos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /Menu da aplicação -->
+    <!--Slider da aplicação -->
+    <div class="divslider">
+        <div class="container">
+            <div class="col-xs-12">
+                <div id="sliderprincipal" class="carousel slide" data-ride="carousel">
+                    <!--Indicadores abaixo -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#sliderprincipal" data-slide-to="0" class="active"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="1"></li>
+                        <li data-target="#sliderprincipal" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="imgs/slides/slider1.jpg" alt="imagem slider 1" class="img-responsive img-rounded" />
+                        </div>
+                        <div class="item">
+                            <img src="imgs/slides/slider2.jpg" alt="imagem slider 2" class="img-responsive img-rounded" />
+                        </div>
+                        <div class="item">
+                            <img src="imgs/slides/slider3.jpg" alt="imagem slider 3" class="img-responsive img-rounded" />
+                        </div>
+                        <!--Setas de navegação-->
+                        <a class="left carousel-control" href="#sliderprincipal" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left">
+                                <!--Somente para screen Headers-->
+                                <span class="sr-only">
+                                    Anterior
+                                </span>
+                            </span>
+                        </a>
+                        <a class="right carousel-control" href="#sliderprincipal" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right">
+                                <!--Somente para screen Headers-->
+                                <span class="sr-only">
+                                    Posterior
+                                </span>
+                            </span>
+                        </a>
+                        <!--/Setas de navegação-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Slider da aplicação -->
+    <!--Serviços da aplicação -->
+    <section id="servicos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>
+                            Serviços <small>Saiba o que fazemos</small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 servicos_item">
+                    <div>
+                        <img src="imgs/foto.jpg" class="img-responsive img-rounded" />
+                        <h1>E-commerce</h1>
+                        <p>Descriçção do serviço apresentado</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 servicos_item">
+                    <div>
+                        <img src="imgs/foto.jpg" class="img-responsive img-rounded" />
+                        <h1>Desenvolvimento de Sites</h1>
+                        <p>Descriçção do serviço apresentado</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 servicos_item">
+                    <div>
+                        <img src="imgs/foto.jpg" class="img-responsive img-rounded" />
+                        <h1>E-commerce</h1>
+                        <p>Descriçção do serviço apresentado</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center servicos_btn_todosservicos">
+                    <a href="#" class="btn btn-default btn-lg">Clique aqui para ver todos os serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Serviços da aplicação -->
+    <!--Portfolio da aplicação -->
+    <section id="portfolio" class="div_colorida">
+        <div class="container">
+            <div class="row portfolio_row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>
+                            Portfolio <small> Conheça nosso trabalho</small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio_row">
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto3.jpg" class="img-responsive grayscale" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto3.jpg" class="img-responsive grayscale" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto3.jpg" class="img-responsive grayscale" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio_row">
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto2.jpg" class="img-responsive" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto2.jpg" class="img-responsive" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto2.jpg" class="img-responsive" />
+                        <h4>Nome do Cliente</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <a href="#" class="btn btn-default btn-lg">Clique aqui para conhecer todos os nosso clientes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/Portfolio da aplicação -->
+    <!--Quem Somos da aplicação -->
+    <section id="quemsomos">
+        <div class="container">
+            <div class="col-xs-12">
+                <div class="page-header">
+                    <h1>
+                        Quem Somos<small>   Conheça nossa historia</small>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-xs-8">
+                        <h4>  Texto sobre a empresa   </h4>
+                        <p>
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                        </p>
+                    </div>
+                    <div class="col-xs-4">
+                        <img src="imgs/foto.jpg" class="img-responsive img-circle" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="col-xs-4">
+                        <img src="imgs/foto.jpg" class="img-responsive img-circle" />
+                    </div>
+                    <div class="col-xs-8">
+                        <h4>Missão da Empresa</h4>
+                        <p>
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                            Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto  Texto
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>
+                            Nossa Equipe
+                            <small>   Conheça nossos colaboradores</small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="portfolio_item">
+                        <img src="imgs/foto3.jpg" class="img-responsive grayscale" />
+                        <h4>Nome do funcionario</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/Quem Somos da aplicação -->
+    <!--Localizacao da aplicação -->
+    <section id="localizacao" class="div_colorida">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>
+                            Localização<small>   Veja aonde estamos</small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29354.341643369804!2d-46.57641762752698!3d-23.122973929543022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cec11f46f1007d%3A0xc885a2d1bf078e37!2sAtibaia%2C+SP!5e0!3m2!1spt-BR!2sbr!4v1466467057345" width="100%" height="520" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--/Localizacao da aplicação -->
+    <!--Contato da aplicação -->
+    <section id="contatos">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-header">
+                        <h1>
+                            Contato<small>  fale conosco agora mesmo!</small>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <form name="frmContato" id="formContato">
+                    <div class="row">
+                        <div class="frmladoEsquerdo">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Qual seu nome ?" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg"  placeholder="Qual seu e-mail?" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control input-lg" placeholder=" telefone?" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <textarea class="form-control input-lg" placeholder="Sua mensagem! *" rows="5" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mensagemEnvio">
+                        <div class="col-sm-4">
+                            <div class="alert alert-success">
+                                Envio Realizado!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-left">
+                        <button type="submit" class="btn btn-default btn-lg">
+                            Enviar Formulario
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--/Contato da aplicação -->
+    <!--Rodapé da aplicação -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    Informações gerais sobre o desenvolvedor
+                </div>
+                <div class="col-sm-2 text-right">
+                    Desenvolvido por <strong>Marcus Fernando</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/Rodapé da aplicação -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
